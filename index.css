@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 .btn{
-    padding: 10px;
+    padding: 15px;
     border-radius: 14px;
     border: none;
+    color: black;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    color: lightblue;
 }
 body{
     background-color: aqua;
@@ -26,37 +27,52 @@ body{
 .btncon{
     text-align: center;
     padding: 20px;
+    color: black;
 }
 .logo{
     text-align: center;
     width: 100%;
+    font-size:20px;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 70px;
+    
 }
 .container{
     display: flex;
-    width: 100vw;
+    width: 60%;
     
     justify-content: center;
     align-items: center;   
 }
 .yellow{
-background-color: yellow;
+background-color: rgb(163, 163, 58);
 width: 40%;
 height: 40%;
 flex-wrap: wrap;
+border-top-left-radius: 10px;
+border-bottom-left-radius:10px ;
+color: black;
+font-size: 18px;
 
 
 }
 .blue{
-background-color:blue;
+background-color:rgb(46, 122, 119);
 width: 40%;
 height: 40%;
+color: white;
+font-size: 18px;
+flex-wrap: wrap;
 
 }
 .darkblue{
-background-color: darkblue;
+background-color: rgb(56, 56, 163);
 width: 40%;
 height: 40%;
+flex-wrap: wrap;
+border-top-right-radius: 10px;
+border-bottom-right-radius:10px ;
+color: black;
+font-size: 18px;
 }
