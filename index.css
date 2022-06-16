@@ -76,3 +76,68 @@ border-bottom-right-radius:10px ;
 color: black;
 font-size: 18px;
 }
+.maingrid{
+    background-color: aqua;
+    width: 50%;
+gap: 4px;
+display: grid;
+
+}
+.submaingrid{
+    /* background-color: orange; */
+    display: flex;
+gap: 4px;
+
+    /* grid-template-rows: 100px; */
+    
+    
+
+}
+.submainone{
+    background-color: brown;
+    width: 350px;
+    height: 150px;
+
+
+}
+.submaintwo{
+    background-color: darkgoldenrod;
+    width: 150px;
+    height: 150px;
+
+}
+.submainthree{
+display: flex;
+gap: 4px;
+    
+
+}
+.submainfour{
+    background-color: green;
+    width: 200px;
+    height: 150px;
+    
+
+}
+
+.submainmainone{
+    /* background-color: turquoise; */
+    display: grid;
+gap: 2px;
+    
+}
+.submainmaintwo{
+    background-color: blue;
+    width: 300px;
+    height: 75px;
+    
+   
+
+
+}
+.submainmainthree{
+    background-color: blue;
+    width: 300px;
+    height: 75px;
+
+}
